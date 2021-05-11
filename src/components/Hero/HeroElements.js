@@ -30,6 +30,4 @@ export const HeroItems = styled.div`
   text-transform: uppercase;
   line-height: 1;
   font-weight: bold;
-
-  
 `
