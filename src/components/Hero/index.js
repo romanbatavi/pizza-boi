@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../Navbar'
-import { HeroContainer, HeroContent, HeroH1, HeroBtn, HeroItems } from './HeroElements'
+import { HeroContainer, HeroContent, HeroH1, HeroP,HeroBtn, HeroItems } from './HeroElements'
 
 const Hero = () => {
   return (
