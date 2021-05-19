@@ -13,7 +13,7 @@ export const HeroContainer = styled.div`
 export const HeroContent = styled.div`
   height: calc(100vh -80px);
   max-height: 100%;
-  width: 100vw;
+  /* width: 100vw; */
   padding: 0rem calc((100vw - 1300px) /2);
 `
 
@@ -22,7 +22,7 @@ export const HeroItems = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  height: 100vh;
+  height: 80vh;
   max-height: 100%;
   padding: 0 2rem;
   width: 650px;
