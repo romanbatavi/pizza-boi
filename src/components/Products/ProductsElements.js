@@ -40,5 +40,25 @@ export const ProductTitle = styled.h2`
 ` 
 
 export const ProductInfo = styled.div`
-  display: flex;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+`
+
+export const ProductDesc = styled.p`
+  margin-bottom: 1rem;
+`
+
+export const ProductPrice = styled.p`
+  margin-bottom: 1rem;
+  font-size: 2rem;
+`
+
+export const ProductButton = styled.button`
+  font-size: 1rem;
+  padding: 1rem 4rem;
+  border: none;
 `
