@@ -1,18 +1,22 @@
-import React from 'react'
+import React from 'react';
 import {
-  ProductsContainer, 
-  ProductsWrapper, 
-  ProductsHeading, 
-  ProductTitle, 
-  ProductCard, 
-  ProductImg, ProductInfo, 
-  ProductDesc, ProductPrice, ProductButton} from './ProductsElements'
+  ProductsContainer,
+  ProductWrapper,
+  ProductsHeading,
+  ProductTitle,
+  ProductCard,
+  ProductImg,
+  ProductInfo,
+  ProductDesc,
+  ProductPrice,
+  ProductButton
+} from './ProductsElements';
 
 const Products = ({ heading, data }) => {
   return (
     <ProductsContainer>
       <ProductsHeading>{heading}</ProductsHeading>
-      <ProductsWrapper>
+      <ProductWrapper>
         {data.map((product, index) => {
           return (
             <ProductCard key={index}>
@@ -24,11 +28,11 @@ const Products = ({ heading, data }) => {
                 <ProductButton>{product.button}</ProductButton>
               </ProductInfo>
             </ProductCard>
-          )
+          );
         })}
-      </ProductsWrapper>
+      </ProductWrapper>
     </ProductsContainer>
-  )
-}
+  );
+};
 
-export default Products
+export default Products;
